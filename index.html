@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="n-Logo">
+            <img src="assets/img/logo/logorevou.png" alt="revoU">
+        </div>
+        <div class="Nav">
+            <a class="Nav-item">Home</a>
+            <a id="open-profile" class="Nav-item">Our Profile</a>
+            <a class="Nav-item">Portofolio</a>
+            <a href="#Message-Us" class="Nav-item">Message Us</a>
+        </div>
+    </header>
+    <section>
+        <div class="greeting">
+        <h1> Hai,Pekernalkan nama saya Rizki Putra Dandi</h1>
+        <p>Ini website latihan saya. Maaf jika banyak kesalahan karena saya masih belajar</p>
+        </div>    
+    </section> 
+    <section class="banner">
+        <div class="slider">
+           <div class="slide"><img src="assets/img/slider/download.jpeg" alt="gambar 1"></div>
+           <div class="slide"><img src="assets/img/slider/Pemandangan_Alam.jpg" alt="gambar 2"></div>
+           <div class="slide"><img src="assets/img/slider/Gunung.jpg" alt="gambar 3"></div>
+        </div>
+    </section>
+</section>
+<section id="Message-Us" class="form">
+    <div class="form-left">
+        <table class="table1">
+            <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input id="nama" name="nama" placeholder="nama" type="text"></input></td>
+            </tr>
+            <tr>
+            <td>Tgl. Lahir</td>
+            <td>:</td>
+            <td><input id="tgl-lahir" name="tgllahir" type="date"></input></td>
+            </tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+              <div class="radio-btn">
+              <input type="radio" name="gender" id="male" value="Laki-laki">
+              <label for="male">Laki-laki</label>
+              <input type="radio" name="gender" id="female" value="Perempuan">
+              <label for="female">Perempuan</label>
+              </div>
+            </td>
+            <tr>
+            <td>Message</td>
+            <td>:</td>
+            <td> <input id="pesan" class="pesan" type="text" placeholder="Masukan Pesan disini"></input></td>
+            </tr>
+            <br>
+            <td>
+            <button> Simpan </button>
+            </td>
+          </table>
+        </div>
+        <div class="form-right">
+            <table id="table2" class="table2">
+                    <p id="ppsan" class="ppsan"></p>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <center>
+        <p class="footer-text"> Dibuat oleh: Rizki Putra Dandi</p>
+        </center>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
